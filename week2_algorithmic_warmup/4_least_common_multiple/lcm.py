@@ -10,5 +10,4 @@ def lcm(a, b):
 
 if __name__ == '__main__':
     a, b = map(int, input().split())
-    # print(lcm_naive(a, b))
     print(lcm(a, b))
